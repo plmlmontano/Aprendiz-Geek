@@ -1,0 +1,45 @@
+body{
+    background-color: #f3f4f5;
+}
+
+#title{
+    font-size: 24px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+}
+.Pprincipal{
+    font-size: 18px;
+    text-align: justify;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #757575;
+}
+#titlee {
+    font-size: 24px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+}
+#titu{
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+}
+.list{
+    font-size: 18px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #757575;
+}
+
+.prepared{
+    font-size: 18px;
+    text-align: justify;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #757575;
+}
+.lis{
+    font-size: 18px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #757575;
+}
