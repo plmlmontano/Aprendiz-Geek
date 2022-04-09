@@ -12,10 +12,10 @@
         <h4 class="pin">Calculadora de propinas</h4>
         <div class="pin">
           <label for="cuenta">Total de la cuenta</label>
-          <input type="text" id="cuenta" placeholder="Total de la cuenta">
+          <input type="number" id="cuenta" placeholder="Total de la cuenta"  maxlength="9" onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;">
           <br>
           <label for="cuenta">Porcentaje de la propina</label>
-          <input type="text" id="propina" placeholder="Porcentaje de la  propina">
+          <input type="number" id="propina" placeholder="Porcentaje de la  propina"  maxlength="9" onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;">
           <br>
           <button type="button" id="btn-calcular">Calcular</button>
           <div class="otro">
